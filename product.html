@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    
+    <!--Tailwind link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+
+    
+</head>
+<body>
+    <!--Responsive Navbar-->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl font-medium">Greenden</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          
+        <ul class="flex gap-5 text-gray-400 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="./index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="#">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="./contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Product Search bar-->
+    <section class="text-center mt-10">
+        <h1 class="text-2xl font-bold">
+            Our Product
+        </h1>
+        <input type="text" placeholder="Search for a Product..." class="border border-black p-2 m-3 w-4/5"> <br>
+    </section>
+
+    <!--Flowers-->
+    <section class="text-center mt-10">
+                
+        <div class="grid grid-cols-2 md:grid-cols-4" >
+            <div>
+                <img src="./Images/Best1.jpg" alt="Rose Plant" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <p>Rose Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./Images/Best2.jpg" alt="Lily Plant" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <p>Lily Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./Images/Best3.jpg" alt="Hibiscus Rose" class="inline hover:shadow-xl transform hover:-translate-y-2 mt-2">
+                <p>Hibiscus Rose</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./Images/Best4.jpg" alt="Pet Plant" class="inline hover:shadow-xl transform hover:-translate-y-2 mt-2">
+                <p>New Pet Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./Images/Best4.jpg" alt="Rose Plant" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <p>New Pet Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./Images/Best3.jpg" alt="Lily Plant" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <p>Hibiscus Rose</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./Images/Best2.jpg" alt="Hibiscus Rose" class="inline hover:shadow-xl transform hover:-translate-y-2 mt-2">
+                <p>Lily Rose</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./Images/Best1.jpg" alt="Pet Plant" class="inline hover:shadow-xl transform hover:-translate-y-2 mt-2">
+                <p>Rose Plant</p>
+                <p>$20</p>
+            </div>
+        </div>        
+    </section>
+
+    <!--Footer-->
+    <Section class="bg-green-100 p-10 mt-5">
+        <h1 class="text-2xl font-bold">Greenden</h1>
+        <p class="mt-2">Greenden: Elevate your space with a touch of nature, bringing freshness and style to your surroundings.</p>
+        <p class="mt-2">&copy; 2021 Greenden.com</p>
+    </Section>
